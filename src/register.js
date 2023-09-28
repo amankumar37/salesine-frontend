@@ -21,6 +21,7 @@ function Register(p) {
       })
       .then((res) => {
         console.log(res);
+        window.alert("Registration successful. Please log in now.");
         p.register(false);
       })
       .catch((err) => {
