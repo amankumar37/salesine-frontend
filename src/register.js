@@ -21,6 +21,7 @@ function Register(p) {
       })
       .then((res) => {
         console.log(res);
+        p.register(false);
       })
       .catch((err) => {
         console.log("There is an error in registering the user in the client side ", err);
