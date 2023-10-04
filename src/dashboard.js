@@ -65,7 +65,7 @@ function Dashboard(){
 
             </form> */}
 
-            <h1 className="text-7xl">Welcome to you dashboard page {quote}!</h1>
+            <h1 className="text-7xl">Welcome to your dashboard page {quote}!</h1>
 
             
 
